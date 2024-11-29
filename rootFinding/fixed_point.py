@@ -10,7 +10,6 @@ def fixed_point(x0, g, e, max = 100):
     return 'Did not find root :('
 
 
-
 def g(x):
     # |g'(x) <=k< 1
     return 2 / x -1
